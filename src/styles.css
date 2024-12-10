@@ -3,29 +3,34 @@ body {
     margin: 20px;
     background-color: #f8f9fa;
     color: #212529;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 600px;
     margin: auto;
     padding: 20px;
     background: #fff;
-   }
+}
 
-  .card {
+.card {
     border-radius: 8px;
-  }
-  
-  button {
+}
+
+button {
     font-size: 1.2rem;
-  }
-  
-  .alert {
+}
+
+.alert {
     font-size: 1.1rem;
-  }
+}
+
+img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
