@@ -7,3 +7,5 @@ build:
 run: build
 	docker run -p 8080:80 custom-nginx
 
+up:
+	docker compose up
