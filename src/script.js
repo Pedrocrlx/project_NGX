@@ -22,7 +22,7 @@ function calculateCost() {
     const totalCost = litersNeeded * fuelPrice;
     const totalLiters = parseFloat(distance / fuelEfficiency);
 
-    resultDiv.textContent = `O custo estimado da viagem é de € ${totalCost.toFixed(2)} Você precisará de ${totalLiters}L de combustível para completar essa viagem.`;
+    resultDiv.textContent = `O custo estimado da viagem é de € ${totalCost.toFixed(2)} Você precisará de ${totalLiters.toFixed(1)}L de combustível para completar essa viagem.`;
     resultDiv.classList.remove("d-none", "alert-danger");
     resultDiv.classList.add("alert-success");
   }
