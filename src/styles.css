@@ -30,8 +30,37 @@ button {
     font-size: 1.1rem;
 }
 
-.image {
-    left: 50%;
-    
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
 }
 
+.navbar-image {
+    width: 50px;
+    /* adjust the width to your liking */
+    height: 50px;
+    /* adjust the height to your liking */
+    margin: 0 auto;
+}
+
+/* Alternatively, you can use absolute positioning */
+
+.navbar {
+    position: relative;
+    background-color: #000000;
+    padding: 1em;
+}
+
+.navbar-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    /* adjust the width to your liking */
+    height: 50px;
+    /* adjust the height to your liking */
+}
